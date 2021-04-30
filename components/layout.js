@@ -24,14 +24,14 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-        {home ? (
+        {home ? ( // displays pfp, if on homepage it's a bit bigger though
           <>
             <Image
               priority
               src="/images/profile.jpg"
               className={utilStyles.borderCircle}
-              height={144}
-              width={144}
+              height={160}
+              width={160}
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
