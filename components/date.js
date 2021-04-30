@@ -1,4 +1,4 @@
-import { parseISO, format } from 'date-fns'
+import { parseISO, format } from 'date-fns/formatDistanceToNow'
 
 export default function Date({ dateString }) {
   const date = parseISO(dateString)
