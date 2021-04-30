@@ -8,13 +8,27 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <main>
+        <h1>Kosta Dubovskiy</h1>
+        <p>
+        Hey! I'm Kosta, I'm a highschool sophomore from NYC. I was born in 
+        Geneva, Switzerland and I lived in Boston as well as Palo Alto,
+        California for 2 years each, I've been living in NYC since 2010.
+        I love math, computer science, philosophy, travel, music, neuroscience,
+        psychology, and more! I'm currently exploring web and app development,
+        which might be how you ended up here :D.
+        </p>
+
+      </main>
+
       <footer>
         <a
-          href=""
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
-        Tweet at me!
+          Powered by{' '}
+          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
       </footer>
 
