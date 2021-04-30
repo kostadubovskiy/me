@@ -10,14 +10,17 @@ export default function Home() {
 
       <main>
         <h1>Kosta Dubovskiy</h1>
-        <p>
-        Hey! I'm Kosta, I'm a highschool sophomore from NYC. I was born in 
-        Geneva, Switzerland and I lived in Boston as well as Palo Alto,
-        California for 2 years each, I've been living in NYC since 2010.
-        I love math, computer science, philosophy, travel, music, neuroscience,
-        psychology, and more! I'm currently exploring web and app development,
-        which might be how you ended up here :D.
-        </p>
+        <div id='About Me'>
+          <h3>A Bit Abut Me</h3>
+          <p>
+          Hey! I'm Kosta, I'm a highschool sophomore from NYC. I was born in
+          Geneva, Switzerland and I lived in Boston as well as Palo Alto,
+          California for 2 years each, I've been living in NYC since 2010.
+          I love math, computer science, philosophy, travel, music, neuroscience,
+          psychology, and more! I'm currently exploring web and app development,
+          which might be how you ended up here :D.
+          </p>
+        </div>
 
       </main>
 
