@@ -20,8 +20,8 @@ export default function Home({ allPostsData }) {
           since 2010. I love math, computer science, philosophy, travel, music,
           neuroscience, psychology, and more! I&#8217;m currently
           exploring web and app development, which might be how you ended up
-          here :D.<br/>
-          <a href="https://twitter.com/kostadubovskiy" target="_blank">Tweet at me!</a>.
+          here :D.<br/> <br/>
+          <a href="https://twitter.com/kostadubovskiy" target="_blank">Tweet at me!</a>
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
