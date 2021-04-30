@@ -13,9 +13,15 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, I’m <strong>Shu</strong>. I’m a software engineer and a
-          translator (English/Japanese). You can contact me on{' '}
-          <a href="https://twitter.com/chibicode">Twitter</a>.
+          Hey! I&#8217;m <strong>Kosta</strong>. I&#8217;m a highschool
+          sophomore from NYC. I&#8217;m speak English, Russian and some Spanish but
+          I was born in Geneva, Switzerland. I lived in Boston as well as
+          Palo Alto, California for 2 years each, I&#8217;ve been living in NYC
+          since 2010. I love math, computer science, philosophy, travel, music,
+          neuroscience, psychology, and more! I&#8217;m currently
+          exploring web and app development, which might be how you ended up
+          here :D. Tweet at me!{' '}
+          <a href="https://twitter.com/kostadubovskiy">Twitter</a>.
         </p>
         <p>
           (This is a sample website - you’ll be building a site like this in{' '}
