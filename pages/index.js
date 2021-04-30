@@ -13,7 +13,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hey! I&#8217;m <strong>Kosta</strong>. I&#8217;m a highschool
+          Hey! I&#8217;m Kosta. I&#8217;m a highschool
           sophomore from NYC. I&#8217;m speak English, Russian and some Spanish but
           I was born in Geneva, Switzerland. I lived in Boston as well as
           Palo Alto, California for 2 years each, I&#8217;ve been living in NYC
