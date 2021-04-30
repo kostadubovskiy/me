@@ -1,13 +1,14 @@
 import Head from 'next/head'
+import Head from 'next/head'
+import Link from 'next/link'
+import Layout from '../../components/layout'
 
 export default function Home() {
   return (
-    <div className="container">
+    <Layout>
       <Head>
-        <title>Kosta Dubovskiy</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Quick Intro</title>
       </Head>
-
       <main>
         <h1>Kosta Dubovskiy</h1>
         <div id='About Me'>
@@ -21,7 +22,6 @@ export default function Home() {
           which might be how you ended up here :D.
           </p>
         </div>
-
       </main>
 
       <footer>
@@ -180,6 +180,6 @@ export default function Home() {
           box-sizing: border-box;
         }
       `}</style>
-    </div>
+    </Layout>
   )
 }
