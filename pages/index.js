@@ -21,7 +21,7 @@ export default function Home({ allPostsData }) {
           neuroscience, psychology, and more! I&#8217;m currently
           exploring web and app development, which might be how you ended up
           here :D. Tweet at me!{' '}
-          <a href="https://twitter.com/kostadubovskiy">Twitter</a>.
+          <a href="https://twitter.com/kostadubovskiy" target="_blank">Twitter</a>.
         </p>
         <p>
           (This is a sample website - you’ll be building a site like this in{' '}
