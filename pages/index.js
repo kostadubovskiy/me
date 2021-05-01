@@ -5,6 +5,15 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData()
+  return {
+    props: {
+      allPostsData
+    }
+  }
+}
+
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
@@ -20,7 +29,7 @@ export default function Home({ allPostsData }) {
           I love math, computer science, philosophy, travel, music,
           neuroscience, psychology, and more! I&#8217;m currently
           exploring web and app development, which might be how you ended up
-          here :D.<br/> <br/>
+          here! :D<br/> <br/>
           <a href="https://twitter.com/kostadubovskiy" target="_blank">Tweet at me!</a>
         </p>
       </section>
@@ -42,13 +51,4 @@ export default function Home({ allPostsData }) {
       </section>
     </Layout>
   )
-}
-
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
-  return {
-    props: {
-      allPostsData
-    }
-  }
 }
