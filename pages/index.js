@@ -16,7 +16,7 @@ export default function Home({ allPostsData }) {
           Hey! I&#8217;m Kosta. I&#8217;m a highschool
           sophomore from NYC, and I speak English and Russian as well as some Spanish.
           I was born in Geneva, Switzerland and I lived in Boston as well as
-          California for 2 years each and since then, I&#8217;ve been in NYC.
+          California for 2 years each. Since then, I&#8217;ve been living in NYC.
           I love math, computer science, philosophy, travel, music,
           neuroscience, psychology, and more! I&#8217;m currently
           exploring web and app development, which might be how you ended up
