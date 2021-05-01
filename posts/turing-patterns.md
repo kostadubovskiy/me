@@ -7,7 +7,7 @@ date: '2021-05-01'
 
 <Image
   priority
-  src="../public/images/cover.jpg"
+  src="../public/images/turing-patterns/cover.jpg"
   height={160}
   width={160}
   alt={name}
