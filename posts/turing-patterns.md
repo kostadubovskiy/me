@@ -3,10 +3,7 @@ title: "How Alan Turing Cracked Nature's Code"
 date: '2021-05-01'
 ---
 
-
-
 # How Alan Turing Cracked Nature's Code
-
 
 ![](public/images/articles/turing-patterns/cover.jpg)
 
