@@ -11,7 +11,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section className={utilStyles.headingMd}>  // A bit about me
         <p>
           Hey! I&#8217;m Kosta. I&#8217;m a highschool
           sophomore from NYC. I&#8217;m speak English, Russian and some Spanish but
