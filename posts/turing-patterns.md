@@ -1,7 +1,8 @@
 ---
-title: 'How Alan Turing Cracked Nature's Code'
-date: '2020-05-01'
+title: "How Alan Turing Cracked Nature's Code"
+date: '2021-05-01'
 ---
+
 #What does the formation of galaxies have to do with oceanic migratory patterns and embryos? The answer may surprise you: Alan Turing.
 If you’re interested in math, you probably already know Alan Turing, and if you don’t, you should. Alan Turing was an ingenious mathematician, computer scientist, and cryptist. He is without doubt the forefather to computers, artificial intelligence, algorithms, and theoretical computer science, and he utilized his cryptology skills during World War II to help the Allies defeat the Nazis in many key battles, including the longest continuous military campaign of the war, the Battle of the Atlantic. This could easily be a manifesto on Alan Turing’s mainstream contributions, but perhaps one of the most interesting, although shrouded, codes he worked on was that of nature.
 
@@ -33,7 +34,7 @@ ComplexityExplorer. (2019, August 02). Origins of life: Introduction - pattern f
 Reaction diffusion: A visual explanation. (2019, June 24). Retrieved April 25, 2021, from https://www.youtube.com/watch?v=LMzYrsfTiEw
 Sunflowers and Fibonacci: Models of efficiency. (2014, June 05). Retrieved April 25, 2021, from https://thatsmaths.com/2014/06/05/sunflowers-and-fibonacci-models-of-efficiency/
 A century of Turing. (2012, November 30). Retrieved April 25, 2021, from https://www.nature.com/articles/nphys2512
-Kuttler, C. (n.d.). Reaction-Diffusion equations with applications. Retrieved from https://www-m6.ma.tum.de/~kuttler/script_reaktdiff.pdf 
+Kuttler, C. (n.d.). Reaction-Diffusion equations with applications. Retrieved from https://www-m6.ma.tum.de/~kuttler/script_reaktdiff.pdf
 Ghosh, A., & Kriete, A. (2006). Reaction-Diffusion system. Retrieved April 25, 2021, from https://www.sciencedirect.com/topics/mathematics/reaction-diffusion-system
 DNewsChannel, S. (2021, March 29). Scientists find our world could be ruled by secret patterns | a natural code. Retrieved April 25, 2021, from https://www.youtube.com/watch?v=9c_8ksn8YaM
 Klein, J. (2018, May 08). How the father of computer science decoded nature's mysterious patterns. Retrieved April 25, 2021, from https://www.nytimes.com/2018/05/08/science/alan-turing-desalination.html
