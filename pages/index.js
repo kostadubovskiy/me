@@ -14,7 +14,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>
           Hey! I&#8217;m Kosta. I&#8217;m a highschool
-          sophomore from NYC, and I speak English, Russian as well as some Spanish.
+          sophomore from NYC, and I speak English and Russian as well as some Spanish.
           I was born in Geneva, Switzerland and I lived in Boston as well as
           California for 2 years each and since then, I&#8217;ve been in NYC.
           I love math, computer science, philosophy, travel, music,
