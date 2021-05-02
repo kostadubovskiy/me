@@ -29,49 +29,79 @@ export default function Layout({ children, home }) {
       </Head>
       <header className={styles.header}>
         {home ? ( // displays pfp, if on homepage it's a bit bigger though
-          <>
+          <div class='menu'>
             <Image
-              priority
-              src="/images/profile.nosync.jpg"
-              className={utilStyles.borderCircle}
-              height={160}
-              width={160}
-              alt={name}
+              src="/images/travel_collage1.nosync.jpg"
+              width='500%'
+              height='500%'
+              alt={'Travel Photos'}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
+            <div class='pfpicon'>
+              <a>
+                <Image
+                  priority
+                  src="/images/profile.nosync.jpg"
+                  className={utilStyles.borderCircle}
+                  width={160}
+                  height={160}
+                  alt={name}
+                  style="max-width:160;max-height:160;"
+                />
+              </a>
+              <h2 className={utilStyles.menuText}>
+                <Link href="/">
+                  <a className={utilStyles.colorInherit}>Home</a>
+                </Link>
+              </h2>
+              <h2 className={utilStyles.menuText}>
+                <Link href="../pages/about">
+                  <a className={utilStyles.colorInherit}>About Me</a>
+                </Link>
+              </h2>
+              <h2 className={utilStyles.menuText}>
+                <Link href="../pages/work">
+                  <a className={utilStyles.colorInherit}>Work</a>
+                </Link>
+              </h2>
+              <h2 className={utilStyles.menuText}>
+                <Link href="../pages/contact">
+                  <a className={utilStyles.colorInherit}>Contact</a>
+                </Link>
+              </h2>
+            </div>
+          </div>
         ) : (
           <div class='menu'>
             <div class='pfpicon'>
               <Link href="/">
                 <a>
-                    <Image
-                      priority
-                      src="/images/profile.nosync.jpg"
-                      className={utilStyles.borderCircle}
-                      width={75}
-                      height={75}
-                      alt={name}
-                      style="max-width:75;max-height:75;"
-                    />
+                  <Image
+                    priority
+                    src="/images/profile.nosync.jpg"
+                    className={utilStyles.borderCircle}
+                    width={75}
+                    height={75}
+                    alt={name}
+                    style="max-width:75;max-height:75;"
+                  />
                 </a>
               </Link>
-              <h2 className={utilStyles.headingMd}>
+              <h2 className={utilStyles.menuText}>
                 <Link href="/">
                   <a className={utilStyles.colorInherit}>Home</a>
                 </Link>
               </h2>
-              <h2 className={utilStyles.headingMd}>
+              <h2 className={utilStyles.menuText}>
                 <Link href="../pages/about">
                   <a className={utilStyles.colorInherit}>About Me</a>
                 </Link>
               </h2>
-              <h2 className={utilStyles.headingMd}>
+              <h2 className={utilStyles.menuText}>
                 <Link href="../pages/work">
-                  <a className={utilStyles.colorInherit}>Past Work</a>
+                  <a className={utilStyles.colorInherit}>Work</a>
                 </Link>
               </h2>
-              <h2 className={utilStyles.headingMd}>
+              <h2 className={utilStyles.menuText}>
                 <Link href="../pages/contact">
                   <a className={utilStyles.colorInherit}>Contact</a>
                 </Link>
