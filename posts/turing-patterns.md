@@ -2,15 +2,16 @@
 title: "How Alan Turing Cracked Nature's Code"
 date: '2021-05-01'
 ---
-
-<Image
-  src="/images/cover.jpg"
-  layout='responsive'
-  height={160}
-  width={160}
-  quality={100}
-  alt={name}
-/>
+<p align='center'>
+  <Image
+    src="/images/cover.jpg"
+    layout='responsive'
+    height="auto"
+    width="auto"
+    quality={100}
+    alt={name}
+  />
+</p>
 
 ### What does the formation of galaxies have to do with oceanic migratory patterns and embryos? The answer may surprise you: Alan Turing.
 

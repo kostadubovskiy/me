@@ -44,9 +44,10 @@ export default function Layout({ children, home }) {
                     priority
                     src="/images/profile.nosync.jpg"
                     className={utilStyles.borderCircle}
-                    height={75}
                     width={75}
+                    height={75}
                     alt={name}
+                    style="max-width:75;max-height:75;"
                   />
               </a>
             </Link>
