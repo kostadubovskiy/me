@@ -1,8 +1,12 @@
+import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import {Navigation} from 'react-minimal-side-navigation';
+import 'react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css';
+import Icon from "@material-ui/core/Icon";
 
 const name = 'Kosta Dubovskiy'
 export const siteTitle = 'Kosta Dubovskiy'
@@ -37,25 +41,42 @@ export default function Layout({ children, home }) {
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
-          <div class='pfpicon'>
-            <Link href="/">
-              <a>
-                  <Image
-                    priority
-                    src="/images/profile.nosync.jpg"
-                    className={utilStyles.borderCircle}
-                    width={75}
-                    height={75}
-                    alt={name}
-                    style="max-width:75;max-height:75;"
-                  />
-              </a>
-            </Link>
-            <h2 className={utilStyles.headingLg}>
+          <div class='menu'>
+            <div class='pfpicon'>
               <Link href="/">
-                <a className={utilStyles.colorInherit}>Home</a>
+                <a>
+                    <Image
+                      priority
+                      src="/images/profile.nosync.jpg"
+                      className={utilStyles.borderCircle}
+                      width={75}
+                      height={75}
+                      alt={name}
+                      style="max-width:75;max-height:75;"
+                    />
+                </a>
               </Link>
-            </h2>
+              <h2 className={utilStyles.headingLg}>
+                <Link href="/">
+                  <a className={utilStyles.colorInherit}>Home</a>
+                </Link>
+              </h2>
+              <h2 className={utilStyles.headingLg}>
+                <Link href="/">
+                  <a className={utilStyles.colorInherit}>About Me</a>
+                </Link>
+              </h2>
+              <h2 className={utilStyles.headingLg}>
+                <Link href="/">
+                  <a className={utilStyles.colorInherit}>Past Work</a>
+                </Link>
+              </h2>
+              <h2 className={utilStyles.headingLg}>
+                <Link href="/">
+                  <a className={utilStyles.colorInherit}>Contact</a>
+                </Link>
+              </h2>
+            </div>
           </div>
         )}
       </header>
