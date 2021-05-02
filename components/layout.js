@@ -32,7 +32,7 @@ export default function Layout({ children, home }) {
           <div class='menu'>
             <h1 style={{textAlign: 'center', color: 'black', fontSize: 40}}>Kosta Dubovskiy</h1>
             <Image
-              src="/images/travel_collage1.nosync.jpg"
+              src="/images/travel_collage.nosync.jpg"
               width='500%'
               height='500%'
               alt={'Travel Photos'}
