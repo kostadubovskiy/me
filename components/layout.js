@@ -54,7 +54,7 @@ export default function Layout({ children, home }) {
                 </Link>
               </h2>
               <h2 className={utilStyles.menuText}>
-                <Link href="/pages/about.js">
+                <Link href="/about.js">
                   <a className={utilStyles.colorInherit}>About Me</a>
                 </Link>
               </h2>
