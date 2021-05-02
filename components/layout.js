@@ -56,23 +56,23 @@ export default function Layout({ children, home }) {
                     />
                 </a>
               </Link>
-              <h2 className={utilStyles.headingLg}>
+              <h2 className={utilStyles.headingMd}>
                 <Link href="/">
                   <a className={utilStyles.colorInherit}>Home</a>
                 </Link>
               </h2>
-              <h2 className={utilStyles.headingLg}>
-                <Link href="/">
+              <h2 className={utilStyles.headingMd}>
+                <Link href="../pages/about">
                   <a className={utilStyles.colorInherit}>About Me</a>
                 </Link>
               </h2>
-              <h2 className={utilStyles.headingLg}>
-                <Link href="/">
+              <h2 className={utilStyles.headingMd}>
+                <Link href="../pages/work">
                   <a className={utilStyles.colorInherit}>Past Work</a>
                 </Link>
               </h2>
-              <h2 className={utilStyles.headingLg}>
-                <Link href="/">
+              <h2 className={utilStyles.headingMd}>
+                <Link href="../pages/contact">
                   <a className={utilStyles.colorInherit}>Contact</a>
                 </Link>
               </h2>
