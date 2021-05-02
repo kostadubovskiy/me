@@ -3,13 +3,12 @@ title: "How Alan Turing Cracked Nature's Code"
 date: '2021-05-01'
 ---
 
-# How Alan Turing Cracked Nature's Code
-
 <Image
-  priority
   src="/images/cover.jpg"
+  layout='responsive'
   height={160}
   width={160}
+  quality={100}
   alt={name}
 />
 

@@ -37,25 +37,25 @@ export default function Layout({ children, home }) {
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
-          <>
+          <div class='pfpicon'>
             <Link href="/">
               <a>
-                <Image
-                  priority
-                  src="/images/profile.nosync.jpg"
-                  className={utilStyles.borderCircle}
-                  height={108}
-                  width={108}
-                  alt={name}
-                />
+                  <Image
+                    priority
+                    src="/images/profile.nosync.jpg"
+                    className={utilStyles.borderCircle}
+                    height={75}
+                    width={75}
+                    alt={name}
+                  />
               </a>
             </Link>
             <h2 className={utilStyles.headingLg}>
               <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
+                <a className={utilStyles.colorInherit}>Home</a>
               </Link>
             </h2>
-          </>
+          </div>
         )}
       </header>
       <main>{children}</main>
