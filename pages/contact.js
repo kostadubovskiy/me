@@ -5,9 +5,9 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 
-export default function Home({ allPostsData }) {
+export default function Contact({ allPostsData }) {
   return (
-    <Layout home>
+    <Layout contact>
       <Head>
         <title>{siteTitle}</title>
       </Head>
