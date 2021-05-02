@@ -30,6 +30,7 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? ( // displays pfp, if on homepage it's a bit bigger though
           <div class='menu'>
+            <h1 style={{textAlign: 'center', color: 'black', fontSize: 40}}>Kosta Dubovskiy</h1>
             <Image
               src="/images/travel_collage1.nosync.jpg"
               width='500%'
@@ -54,7 +55,7 @@ export default function Layout({ children, home }) {
                 </Link>
               </h2>
               <h2 className={utilStyles.menuText}>
-                <Link href="/about.js">
+                <Link href="/about">
                   <a className={utilStyles.colorInherit}>About Me</a>
                 </Link>
               </h2>
@@ -92,17 +93,17 @@ export default function Layout({ children, home }) {
                 </Link>
               </h2>
               <h2 className={utilStyles.menuText}>
-                <Link href="../pages/about">
+                <Link href="/about">
                   <a className={utilStyles.colorInherit}>About Me</a>
                 </Link>
               </h2>
               <h2 className={utilStyles.menuText}>
-                <Link href="../pages/work">
+                <Link href="/work">
                   <a className={utilStyles.colorInherit}>Work</a>
                 </Link>
               </h2>
               <h2 className={utilStyles.menuText}>
-                <Link href="../pages/contact">
+                <Link href="/contact">
                   <a className={utilStyles.colorInherit}>Contact</a>
                 </Link>
               </h2>
@@ -111,13 +112,6 @@ export default function Layout({ children, home }) {
         )}
       </header>
       <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
     </div>
   )
 }
