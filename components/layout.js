@@ -42,8 +42,8 @@ export default function Layout({ children, home }) {
                   priority
                   src="/images/profile.nosync.jpg"
                   className={utilStyles.borderCircle}
-                  width={160}
-                  height={160}
+                  width={75}
+                  height={75}
                   alt={name}
                   style="max-width:160;max-height:160;"
                 />
@@ -54,17 +54,17 @@ export default function Layout({ children, home }) {
                 </Link>
               </h2>
               <h2 className={utilStyles.menuText}>
-                <Link href="../pages/about">
+                <Link href="/pages/about.js">
                   <a className={utilStyles.colorInherit}>About Me</a>
                 </Link>
               </h2>
               <h2 className={utilStyles.menuText}>
-                <Link href="../pages/work">
+                <Link href="/work">
                   <a className={utilStyles.colorInherit}>Work</a>
                 </Link>
               </h2>
               <h2 className={utilStyles.menuText}>
-                <Link href="../pages/contact">
+                <Link href="/contact">
                   <a className={utilStyles.colorInherit}>Contact</a>
                 </Link>
               </h2>

@@ -13,7 +13,7 @@ export default function Work({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          About Me!
+          Work!
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
