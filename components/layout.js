@@ -66,7 +66,7 @@ export const ContentGrid = styled.div`
 `//background: #a4c4de;
 
 export const WorkPreview = styled.div`
-  text-align: center;
+  grid-column-template: 3fr 2fr;
   padding: 1em;
 `//background: #ddd;
 
@@ -74,7 +74,8 @@ const FooterGrid = styled.div`
   display: grid;
   grid-gap: 1em;
   grid-column: 1/6;
-`//background: #224057;
+  background: #5f808c;
+`
 
 export default function Layout({ children, home }) {
   return (

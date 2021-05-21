@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
-import { IntroductionGrid, ContentGrid, BodyGrid } from '../components/layout.js'
+import { IntroductionGrid, ContentGrid, BodyGrid, WorkPreview } from '../components/layout.js'
 import Image from 'next/image'
 
 const name = 'Kosta Dubovskiy'
@@ -46,6 +46,12 @@ export default function Home({ allPostsData }) {
           </div>
         </IntroductionGrid>
         <ContentGrid>
+          <WorkPreview>
+            <div style={{gridColumn:1}}>
+              <h2>Check out my recent article!</h2>
+            </div>
+            <a property="og:url" content='https://blog.usejournal.com/how-alan-turing-cracked-natures-code-f6c18e2dc17a' target='_blank'>How Alan Turing Cracked Nature&#8217;s Code</a>
+          </WorkPreview>
         </ContentGrid>
       </BodyGrid>
     </Layout>
