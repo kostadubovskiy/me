@@ -4,10 +4,12 @@ body {
   margin: 0%;
   margin-left: auto;
   margin-right: auto;
+  min-height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  background: #d8e8f0;
 }
 
 * {
@@ -30,12 +32,48 @@ img {
   border-radius: 8px;
 }
 
-.pfpicon {
-  position: fixed;
-  top: 5%;
-  left: 2%;
-}
-
 .menu {
+  position: absolute;
+  top: 75px;
+  left: 50px;
   color: #989c9e
 }
+
+.landing {
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+#content {
+  padding-top: 70px;
+  min-height: ~"calc(100vh - 92px)";
+}
+
+/*Footer Stuff*/

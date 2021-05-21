@@ -4,7 +4,7 @@ date: '2021-05-01'
 ---
 <p align='center'>
   <Image
-    src="/images/cover.jpg"
+    src="/images/turing-cover.jpg"
     layout='responsive'
     height="auto"
     width="auto"

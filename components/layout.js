@@ -1,117 +1,118 @@
-import React from 'react'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
+import React from 'react';
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from './layout.module.css';
+import utilStyles from '../styles/utils.module.css';
+import Link from 'next/link';
 import {Navigation} from 'react-minimal-side-navigation';
 import 'react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css';
 import Icon from "@material-ui/core/Icon";
+import Grid from '@material-ui/core/Grid';
+
+import styled, { css } from 'styled-components';
+
+import Home from '../pages/index.js';
 
 const name = 'Kosta Dubovskiy'
 export const siteTitle = 'Kosta Dubovskiy'
 
+const PageGrid = styled.div`
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: "1em";
+`
+
+const HeaderGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-gap: "1em";
+`//background: #5f8582;
+
+const HeaderName = styled.div`
+  grid-row: 1;
+  grid-column: 1/6;
+  text-align: center;
+  font-size:1em;
+`
+
+const HeaderNav = styled.div`
+  grid-row: 2;
+  grid-column: 2;
+  display:flex;
+  justify-content: space-evenly;
+  font-family: Arial;
+	font-size: 1em;
+`
+
+export const BodyGrid = styled.div`
+  display: grid;
+  grid-row: 2;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-gap: "1em";
+`//  background: #6d8ea8;
+
+export const IntroductionGrid = styled.div`
+  display: grid;
+  grid-gap: 1em;
+  grid-column: 2;
+  grid-template-columns: 3fr 2fr;
+`//background: #a3bfcf;
+
+export const ContentGrid = styled.div`
+  display: grid;
+  grid-gap: 1em;
+  grid-column: 2;
+  padding: 1em;
+`//background: #a4c4de;
+
+export const WorkPreview = styled.div`
+  text-align: center;
+  padding: 1em;
+`//background: #ddd;
+
+const FooterGrid = styled.div`
+  display: grid;
+  grid-gap: 1em;
+  grid-column: 1/6;
+`//background: #224057;
+
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
-        <meta
-          property="og:image"
-          content= {`https://og-image.vercel.app/${encodeURI(siteTitle)}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-        />
+        <link rel="icon" href="/Logo.png" />
         <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
-        {home ? ( // displays pfp, if on homepage it's a bit bigger though
-          <div class='menu'>
-            <h1 style={{textAlign: 'center', color: 'black', fontSize: 40}}>Kosta Dubovskiy</h1>
-            <Image
-              src="/images/travel_collage.nosync.jpg"
-              width='500%'
-              height='500%'
-              alt={'Travel Photos'}
-            />
-            <div class='pfpicon'>
-              <a>
-                <Image
-                  priority
-                  src="/images/profile.nosync.jpg"
-                  className={utilStyles.borderCircle}
-                  width={75}
-                  height={75}
-                  alt={name}
-                  style="max-width:160;max-height:160;"
-                />
-              </a>
-              <h2 className={utilStyles.menuText}>
-                <Link href="/">
-                  <a className={utilStyles.colorInherit}>Home</a>
-                </Link>
-              </h2>
-              <h2 className={utilStyles.menuText}>
-                <Link href="/about">
-                  <a className={utilStyles.colorInherit}>About Me</a>
-                </Link>
-              </h2>
-              <h2 className={utilStyles.menuText}>
-                <Link href="/work">
-                  <a className={utilStyles.colorInherit}>Work</a>
-                </Link>
-              </h2>
-              <h2 className={utilStyles.menuText}>
-                <Link href="/contact">
-                  <a className={utilStyles.colorInherit}>Contact</a>
-                </Link>
-              </h2>
-            </div>
+
+      <PageGrid>
+        <HeaderGrid>
+          <HeaderName>
+            <h1>Kosta Dubovskiy</h1>
+          </HeaderName>
+          <HeaderNav>
+            <Link href="/">
+              <a>Home</a>
+            </Link>
+            <Link href="/about">
+              <a>About Me</a>
+            </Link>
+            <Link href="/work">
+              <a>Work</a>
+            </Link>
+            <Link href="/contact">
+              <a>Contact</a>
+            </Link>
+          </HeaderNav>
+        </HeaderGrid>
+
+        {children}
+
+        <FooterGrid>
+          <div style={{padding:'1em'}}>
+            <p>Footer stuff</p>
           </div>
-        ) : (
-          <div class='menu'>
-            <div class='pfpicon'>
-              <Link href="/">
-                <a>
-                  <Image
-                    priority
-                    src="/images/profile.nosync.jpg"
-                    className={utilStyles.borderCircle}
-                    width={75}
-                    height={75}
-                    alt={name}
-                    style="max-width:75;max-height:75;"
-                  />
-                </a>
-              </Link>
-              <h2 className={utilStyles.menuText}>
-                <Link href="/">
-                  <a className={utilStyles.colorInherit}>Home</a>
-                </Link>
-              </h2>
-              <h2 className={utilStyles.menuText}>
-                <Link href="/about">
-                  <a className={utilStyles.colorInherit}>About Me</a>
-                </Link>
-              </h2>
-              <h2 className={utilStyles.menuText}>
-                <Link href="/work">
-                  <a className={utilStyles.colorInherit}>Work</a>
-                </Link>
-              </h2>
-              <h2 className={utilStyles.menuText}>
-                <Link href="/contact">
-                  <a className={utilStyles.colorInherit}>Contact</a>
-                </Link>
-              </h2>
-            </div>
-          </div>
-        )}
-      </header>
-      <main>{children}</main>
-    </div>
+        </FooterGrid>
+      </PageGrid>
+    </>
   )
 }
