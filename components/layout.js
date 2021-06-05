@@ -66,7 +66,10 @@ export const ContentGrid = styled.div`
 `//background: #a4c4de;
 
 export const WorkPreview = styled.div`
+  display: grid;
   grid-column-template: 3fr 2fr;
+  grid-row-template: 1fr;
+  grid-gap: 1em;
   padding: 1em;
 `//background: #ddd;
 
@@ -74,8 +77,10 @@ const FooterGrid = styled.div`
   display: grid;
   grid-gap: 1em;
   grid-column: 1/6;
-  background: #5f808c;
-`
+  grid-column-template: 2fr 1fr;
+  grid-row-template: 3fr 1fr;
+  background: #c3dce6;
+`//background-image: linear-gradient(#f5fbfc, #5f808c);
 
 export default function Layout({ children, home }) {
   return (
@@ -88,7 +93,7 @@ export default function Layout({ children, home }) {
       <PageGrid>
         <HeaderGrid>
           <HeaderName>
-            <h1>Kosta Dubovskiy</h1>
+            <h1 style={{fontFamily: 'Brush Script MT'}}>Kosta Dubovskiy</h1>
           </HeaderName>
           <HeaderNav>
             <Link href="/">
@@ -109,8 +114,11 @@ export default function Layout({ children, home }) {
         {children}
 
         <FooterGrid>
-          <div style={{padding:'1em'}}>
+          <div style={{padding:'1em', gridRow: 1, gridColumn: 1}}>
             <p>Footer stuff</p>
+          </div>
+          <div style={{padding:'1em', gridRow: 1, gridColumn: 2/3}}>
+            <p>Footer stuff 2</p>
           </div>
         </FooterGrid>
       </PageGrid>
