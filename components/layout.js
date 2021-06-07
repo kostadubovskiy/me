@@ -65,13 +65,35 @@ export const ContentGrid = styled.div`
   padding: 1em;
 `//background: #a4c4de;
 
-export const WorkPreview = styled.div`
+export const WorkPreview1 = styled.div`
   display: grid;
   grid-column-template: 3fr 2fr;
   grid-row-template: 1fr;
   grid-gap: 1em;
   padding: 1em;
+  line-height: 2;
+  background: #f5fbfc;
 `//background: #ddd;
+
+export const WorkPreview2 = styled.div`
+  display: grid;
+  grid-column-template: 2fr 3fr;
+  grid-row-template: 1fr;
+  grid-gap: 1em;
+  padding: 1em;
+  line-height: 2;
+  background: #f5fbfc;
+`//background: #ddd;
+
+export const ArticlePreview = styled.div`
+  display: grid;
+  grid-gap: 1em;
+  padding: 1em;
+  line-height: 2;
+  background: #e4eaf0;
+  border-radius: 8px;
+  grid-column-template: 6fr 1fr;
+`
 
 const FooterGrid = styled.div`
   display: grid;
