@@ -15,11 +15,15 @@
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.12",
     "date-fns": "^2.29.3",
+    "gray-matter": "^4.0.3",
     "next": "^13.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-minimal-side-navigation": "^1.9.2"
+    "react-minimal-side-navigation": "^1.9.2",
+    "remark": "^14.0.2",
+    "styled-components": "^5.3.8"
   }
 }
