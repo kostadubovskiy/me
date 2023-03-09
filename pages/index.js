@@ -100,14 +100,16 @@ export default function Home({ allPostsData }) {
               />
             </div>
             <div style={{gridColumn:1, gridRow:1}}>
-              <p>Hey! I&#8217;m Kosta Dubovskiy. I&#8217;m a highschool
-              sophomore from NYC, and I speak English and Russian as well as some Spanish.
-              I was born in Geneva, Switzerland and I lived in Boston as well as
-              California for 2 years each. Since then, I&#8217;ve been living in NYC
-              I love math, computer science, philosophy, travel, music,
-              neuroscience, psychology, and more! I&#8217;m currently
-              exploring web and app development, which might be how you ended up
-              here! :D</p>
+              <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+              sint occaecat cupidatat non proident, sunt in culpa 
+              qui officia deserunt mollit anim id est laborum.
+              </p>
             </div>
           </WorkPreview2>
 
@@ -124,14 +126,16 @@ export default function Home({ allPostsData }) {
               />
             </div>
             <div style={{gridColumn:2, gridRow:1}}>
-              <p>Hey! I&#8217;m Kosta Dubovskiy. I&#8217;m a highschool
-              sophomore from NYC, and I speak English and Russian as well as some Spanish.
-              I was born in Geneva, Switzerland and I lived in Boston as well as
-              California for 2 years each. Since then, I&#8217;ve been living in NYC
-              I love math, computer science, philosophy, travel, music,
-              neuroscience, psychology, and more! I&#8217;m currently
-              exploring web and app development, which might be how you ended up
-              here! :D</p>
+              <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+              sint occaecat cupidatat non proident, sunt in culpa 
+              qui officia deserunt mollit anim id est laborum.
+              </p>
             </div>
           </WorkPreview1>
 
