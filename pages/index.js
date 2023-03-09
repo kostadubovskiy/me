@@ -53,14 +53,10 @@ export default function Home({ allPostsData }) {
               />
             </div>
             <div style={{gridColumn:2, gridRow:1}}>
-              <p>Hey! I&#8217;m Kosta Dubovskiy. I&#8217;m a highschool
-              sophomore from NYC, and I speak English and Russian as well as some Spanish.
-              I was born in Geneva, Switzerland and I lived in Boston as well as
-              California for 2 years each. Since then, I&#8217;ve been living in NYC
-              I love math, computer science, philosophy, travel, music,
-              neuroscience, psychology, and more! I&#8217;m currently
-              exploring web and app development, which might be how you ended up
-              here! :D</p>
+              <p>Hey! I&#8217;m Kosta Dubovskiy. I&#8217;m a student
+              from NYC, and I'm really interested in computer science, physics, and entrepeneurship.
+              I&#8217;ve had experience AI, web/app development, data science, and market analysis.
+              I also love sports, travel, art and music!</p>
             </div>
           </WorkPreview1>
 

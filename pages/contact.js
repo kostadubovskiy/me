@@ -36,7 +36,7 @@ export default function Contact({ allPostsData }) {
             </ul>
             <h3>Socials</h3>
             <ul>
-              <li><a href="https://twitter.com/KostaDubovskiy">Twitter</a></li>
+              {/* <li><a href="https://twitter.com/KostaDubovskiy">Twitter</a></li> */}
               <li><a href="https://www.linkedin.com/in/kostadubovskiy/">Linkedin</a></li>
               <li><a href="https://www.instagram.com/kostadubovskiy/">Instagram</a></li>
             </ul>
