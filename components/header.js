@@ -42,6 +42,7 @@ class Header extends React.Component {
           <div class='menu'>
             <div class='pfpicon'>
               <Link href="/">
+<<<<<<< HEAD
                 <Image
                   priority
                   src="/images/profile.nosync.jpg"
@@ -51,6 +52,19 @@ class Header extends React.Component {
                   alt={name}
                   style="max-width:75;max-height:75;"
                 />
+=======
+                <a>
+                  <Image
+                    priority
+                    src="/images/profile.nosync.jpg"
+                    className={utilStyles.borderCircle}
+                    width={75}
+                    height={75}
+                    alt={name}
+                    style="max-width:75;max-height:75;"
+                  />
+                </a>
+>>>>>>> d0ed5d2bd4ff3ee369984c656ab840da420001dd
               </Link>
             </div>
             <SideNav />

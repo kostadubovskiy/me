@@ -1,6 +1,10 @@
 import React from 'react';
 import Head from 'next/head';
+<<<<<<< HEAD
 import Image from "next/legacy/image";
+=======
+import Image from 'next/image';
+>>>>>>> d0ed5d2bd4ff3ee369984c656ab840da420001dd
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
@@ -132,6 +136,7 @@ export default function Layout({ children, home }) {
           </HeaderName>
           <HeaderNav>
             <Link href="/">
+<<<<<<< HEAD
               Home
             </Link>
             <Link href="/about">
@@ -142,6 +147,18 @@ export default function Layout({ children, home }) {
             </Link>
             <Link href="/contact">
               Contact
+=======
+              <a>Home</a>
+            </Link>
+            <Link href="/about">
+              <a>About Me</a>
+            </Link>
+            <Link href="/work">
+              <a>Work</a>
+            </Link>
+            <Link href="/contact">
+              <a>Contact</a>
+>>>>>>> d0ed5d2bd4ff3ee369984c656ab840da420001dd
             </Link>
           </HeaderNav>
         </HeaderGrid>

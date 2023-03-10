@@ -5,7 +5,11 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 import { IntroductionGrid, ContentGrid, BodyGrid, WorkPreview1, WorkPreview2, ArticlePreview } from '../components/layout.js'
+<<<<<<< HEAD
 import Image from "next/legacy/image"
+=======
+import Image from 'next/image'
+>>>>>>> d0ed5d2bd4ff3ee369984c656ab840da420001dd
 
 const name = 'Kosta Dubovskiy'
 

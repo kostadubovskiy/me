@@ -1,6 +1,10 @@
 import React from 'react'
 import Head from 'next/head'
+<<<<<<< HEAD
 import Image from "next/legacy/image"
+=======
+import Image from 'next/image'
+>>>>>>> d0ed5d2bd4ff3ee369984c656ab840da420001dd
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
@@ -64,6 +68,10 @@ export default function Layout({ children, home }) {
             <div class='menu'>
               <div class='pfpicon'>
                 <Link href="/">
+<<<<<<< HEAD
+=======
+                  <a>
+>>>>>>> d0ed5d2bd4ff3ee369984c656ab840da420001dd
                     <Image
                       priority
                       src="/images/profile.nosync.jpg"
@@ -73,6 +81,10 @@ export default function Layout({ children, home }) {
                       alt={name}
                       style="max-width:75;max-height:75;"
                     />
+<<<<<<< HEAD
+=======
+                  </a>
+>>>>>>> d0ed5d2bd4ff3ee369984c656ab840da420001dd
                 </Link>
               </div>
               <SideNav />
