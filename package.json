@@ -1,16 +1,38 @@
 {
   "name": "me2",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Personal website built from scratch with Next.js, Javascript, HTML, CSS",
+  "main": "theme.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "next": "13.2.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@asyncapi/web-component": "^0.24.23",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.12",
+    "date-fns": "^2.29.3",
+    "gray-matter": "^4.0.3",
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-minimal-side-navigation": "^1.9.2",
+    "remark": "^14.0.2",
+    "remark-html": "15.0.2",
+    "styled-components": "^5.3.8"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
   }
 }
